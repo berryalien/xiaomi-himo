@@ -491,11 +491,38 @@ body {
   .info__item-text {
     max-width: 100%;
   }
+
+  .characteristic{
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
 }
 
-@media (max-width: 901px) {
+@media (max-width: 991px) {
   .menu {
     margin-right: 0;
+  }
+
+  .characteristic__inner {
+    flex-wrap: wrap;
+  }
+
+  .characteristic__img {
+    order: -1;
+    width: 100%;
+  }
+
+  .characteristic__items {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+
+  .characteristic__name {
+    flex-basis: 50%;
+  }
+
+  .characteristic__descr {
+    flex-basis: 50%;
   }
 }
 
