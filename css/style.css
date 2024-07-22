@@ -45,8 +45,6 @@ body {
   display: flex;
 }
 
-.menu__item {}
-
 .menu__link {
   text-transform: uppercase;
   padding: 40px 20px;
@@ -66,8 +64,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
-.bike__column {}
 
 .bike__column-slider {
   flex-basis: 630px;
@@ -169,7 +165,6 @@ body {
   margin: auto 0;
 }
 
-
 .info {
   margin-bottom: 150px;
 }
@@ -204,4 +199,8 @@ body {
 
 .info__item+.info__item {
   padding-top: 50px;
+}
+
+.characteristic {
+  
 }
