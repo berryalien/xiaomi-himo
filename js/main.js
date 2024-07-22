@@ -1,10 +1,10 @@
 $(function () {
-$('.bike-slider').slick({
+$('.bike-slider, .slider__items').slick({
   arrows: false,
   dots: true,
   fade: true,
   autoplay: true,
-  autoplaySpeed: 5000  
+  autoplaySpeed: 2000  
 });
 
 });
