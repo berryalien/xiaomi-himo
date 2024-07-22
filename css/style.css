@@ -407,3 +407,44 @@ body {
 .form__btn:hover {
   background-color: #FF4040;
 }
+
+.footer {
+  background-color: #131313;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.footer__link {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.footer__social-link+.footer__social-link {
+  margin-left: 26px;
+}
+
+.footer__contacts {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.footer__contacts-link {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.footer__contacts-link+.footer__contacts-link {
+  margin-top: 10px;
+}
+
+.footer__contacts-img {
+  margin-right: 10px;
+}
