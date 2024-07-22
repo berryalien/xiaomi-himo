@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -67,36 +68,43 @@
             ЗАКАЗАТЬ
           </a>
         </div>
-        <div class="bike__column">
+        <div class="bike__column bike__column-slider">
           <div class="bike-slider">
             <img class="bike-slider__item" src="images/bike-slider/bike-slider-1.jpg" alt="">
             <img class="bike-slider__item" src="images/bike-slider/bike-slider-2.jpg" alt="">
             <img class="bike-slider__item" src="images/bike-slider/bike-slider-3.jpg" alt="">
             <img class="bike-slider__item" src="images/bike-slider/bike-slider-4.jpg" alt="">
-            <img class="bike-slider__item" src="images/bike-slider/bike-slider-5.jpg" alt="">
           </div>
           <ul class="bike__list">
             <li class="bike__list-item">
-              до 100 км
-              <span>
+              <span class="bike__list-num"> 
+                до 100 км
+              </span>
+              <span class="bike__list-text"> 
                 Запас хода
               </span>
             </li>
             <li class="bike__list-item">
-              25 км/ч
-              <span>
+              <span class="bike__list-num">
+                25 км/ч
+              </span>
+              <span class="bike__list-text">
                 Макс корость
               </span>
             </li>
             <li class="bike__list-item">
-              3 режима езды
-              <span>
+              <span class="bike__list-num">
+                3 режима езды
+              </span>
+              <span class="bike__list-text">
                 механический, гибридный, электрический
               </span>
             </li>
             <li class="bike__list-item">
-              25 кг
-              <span>
+              <span class="bike__list-num">
+                25 кг
+              </span>
+              <span class="bike__list-text">
                 вес
               </span>
             </li>
@@ -105,6 +113,9 @@
       </div>
     </div>
   </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
